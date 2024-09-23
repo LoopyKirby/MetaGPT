@@ -22,7 +22,7 @@ class SearchConfig(YamlModel):
     search_func: Optional[Callable] = None
     params: dict = Field(
         default_factory=lambda: {
-            "engine": "google",
+            "engine": "ddg",
             "google_domain": "google.com",
             "gl": "us",
             "hl": "en",
